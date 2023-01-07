@@ -1,0 +1,51 @@
+#hudClassIcon,
+#ammoIcon{
+  display: none;
+}
+#curGameInfo {
+  Font-size: 0px;
+}
+
+#curGameInfo:after {
+  Font-size: 14px;
+  Content: 'FnaticDash';
+  Color: #FFAC67;
+}
+#seasonLabel {
+display: none !important;
+}
+#uiBase {
+    height: 117.647058% !important;
+    width: 88.235294% !important;
+    transform: scale(1.133333, 0.85) !important;
+}
+.leaderNameM, .leaderNameM span { font-size: 0 }
+.leaderNameM::before {
+    content: "daddy";
+    font-size: 18px;
+}
+
+#menuAccountUsername{ font-size: 0px; }
+#menuAccountUsername::before {
+    content: "daddy";
+    font-size: 18px;
+}
+
+.menuClassPlayerName{ font-size: 0px; }
+.menuClassPlayerName::before {
+    content: "daddy";
+    font-size: 18px;
+
+.leaderNameM span::after {
+    content: "7";
+    font-size: 18px;
+}
+
+.menuClassPlayerName { font-size: 0 }
+.menuClassPlayerName::before {
+    content: "daddy";
+    font-size: 18px;
+    vertical-align: middle;
+}
+.rankClck,#menuClassNameTag [src*="./img/ranked/"],.leaderItem [src*="./img/ranked/"],#endTable [src*="./img/ranked/"] {
+    display:none !important;
